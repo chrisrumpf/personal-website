@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 255);
+    height: 65px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.nav-title{
+    text-align: left;
+    align-content: center;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    flex: 1.5;
+    font-size: 2vw;
+    font-family: 'Alegreya Sans SC';
+    width: auto;
+    color: white;
+}
+
+.nav-title:hover{
+    color: orange;
+    font-style: italic;
+    transition: color 100ms linear;
+    cursor: pointer;
+}
+
+.nav-directory{
+    display: flex;
+    flex: 1;
+    margin-left: 1.5%;
+    margin-right: 3%;
+}
+
+.nav-item{
+    text-align: center;
+    flex: 1;
+    margin: 5px;
+    color: white;
+}
+
+.nav-item:hover{
+    color: orange;
+    transition: color 100ms linear;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
